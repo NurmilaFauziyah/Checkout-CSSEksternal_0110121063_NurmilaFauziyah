@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 70%; 
+    border: 1px solid black; 
+    margin: auto;
+}
+
+header {
+    background-color:rgba(255, 192, 203, 0.849);  
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: flex; 
+    padding: 15px; 
+    border-bottom: 1px solid black;
+}
+
+.ul-name {
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px; 
+    margin-right: 50px;
+}
+
+.a-name {
+    text-decoration: none;
+}
+
+.ul-home {
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px;
+}
+
+.ul-cart {
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px; 
+    margin-left: auto;
+}
+
+.li-cart {
+    display: flex; 
+    gap: 5px;
+}
+
+.utama {
+    display: flex; 
+    gap:20px; 
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+main {
+    width: 70%;
+}
+
+.tabel-logo {
+    border: 0 ;
+    text-align: center;
+}
+
+.ceklis {
+    text-align: left;
+}
+
+.image {
+    padding-right: 20px;
+    width: 70px;
+}
+
+.th {
+    width: 643px;
+}
+
+.thankyou {
+    font-size: 25px;
+}
+
+h2 {
+    font-style: normal;
+}
+
+.shipping {
+    width: 300px;
+}
+
+aside {
+    width: 40%; 
+    height: 50%; 
+    background-color:silver; 
+    padding: 10px; 
+    display: grid; 
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.tabel-summary {
+    width: 100%;
+}
+
+.summary1 {
+    padding: 5px 0;
+}
+
+.summary2 {
+    padding: 5px 0;
+    text-align: right;
+}
+
+.submit {
+    display: flex;
+}
+
+.apply1 {
+    font-weight: bolder; 
+    max-width: max-content;
+}
+
+.apply2 {
+    background-color: white; 
+    width: 50px;
+}
+
+footer {
+    margin-top: 100px; 
+    border-top: 1px solid black; 
+    padding: 10px; 
+    display: grid; 
+    gap: 10px;
+}
+
+.bawah {
+    display: flex; 
+    gap: 5px;
+}
+
+.futer1 {
+    margin-right: 10px; 
+    font-weight: bolder; 
+}
+
+.futer2 {
+    margin-right: 10px;     
+}
+
+.futer3 {
+    margin-left: auto ; 
+}
+
+.email {
+    font-weight: bolder; 
+    width: 161px;
+}
+
+.subscribe {
+    background-color: rgba(128, 128, 128, 0.541); 
+    width: 70px;
+}
